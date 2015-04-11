@@ -13,6 +13,7 @@ class BarFilterTest extends \PHPUnit_Framework_TestCase {
         $barFilter = new BarFilter();
         $result = $barFilter->run($array);
 
+        $this->assertTrue(! in_array('bar', $result));
         $this->assertTrue(in_array('baz', $result));
     }
 }

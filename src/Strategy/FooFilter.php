@@ -1,7 +1,7 @@
 <?php
 namespace PhpDesignPatterns\Strategy;
 
-class BarFilter implements Filter {
+class FooFilter implements Filter {
 
     /**
      * Runs a filter on an array and returns the filtered array
@@ -12,7 +12,7 @@ class BarFilter implements Filter {
     public function run(array $array)
     {
         return array_map(function ($value) {
-            if ($value == 'bar') return 'baz';
+            if ($value == 'foo') return 'wow';
             return $value;
         }, $array);
     }
