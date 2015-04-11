@@ -1,5 +1,8 @@
 <?php
-namespace PhpDesignPatterns\Strategy;
+namespace PhpDesignPatterns\Tests\Strategy\Filter;
+
+use PhpDesignPatterns\Strategy\Filter\FooFilter;
+use PhpDesignPatterns\Tests\ArrayHelperTrait;
 
 class FooFilterTest extends \PHPUnit_Framework_TestCase {
 

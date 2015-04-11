@@ -1,5 +1,7 @@
 <?php
-namespace PhpDesignPatterns\Strategy;
+namespace PhpDesignPatterns\Strategy\Filter;
+
+use PhpDesignPatterns\Strategy\Filter\Filter;
 
 class BarFilter implements Filter {
 

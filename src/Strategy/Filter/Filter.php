@@ -1,5 +1,5 @@
 <?php
-namespace PhpDesignPatterns\Strategy;
+namespace PhpDesignPatterns\Strategy\Filter;
 
 interface Filter
 {

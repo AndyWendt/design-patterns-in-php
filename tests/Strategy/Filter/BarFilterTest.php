@@ -1,5 +1,7 @@
 <?php
-namespace PhpDesignPatterns\Strategy;
+namespace PhpDesignPatterns\Tests\Strategy\Filter;
+
+use PhpDesignPatterns\Strategy\Filter\BarFilter;
 
 class BarFilterTest extends \PHPUnit_Framework_TestCase {
 

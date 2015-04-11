@@ -15,7 +15,8 @@
   },
   "autoload": {
     "psr-4": {
-      "PhpDesignPatterns\\": "src/"
+      "PhpDesignPatterns\\": "src/",
+      "PhpDesignPatterns\\Test\\": "tests/"
     }
   }
 }
