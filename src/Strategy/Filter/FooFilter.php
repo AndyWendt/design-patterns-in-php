@@ -1,8 +1,6 @@
 <?php
 namespace PhpDesignPatterns\Strategy\Filter;
 
-use PhpDesignPatterns\Strategy\Filter\Filter;
-
 class FooFilter implements Filter {
 
     /**

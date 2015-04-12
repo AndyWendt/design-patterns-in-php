@@ -18,12 +18,13 @@ class ArrayModifierTest extends \PHPUnit_Framework_TestCase
         $arrayModifier = new ArrayModifier($array);
 
         $result = $arrayModifier
-            ->modify(
+            ->filter(
+                $array,
                 [
                     new BarFilter(),
                     new FooFilter(),
                 ]
-            )->getArray();
+            );
 
         $this->assertTrue(!$this->allNeedlesInArray(['foo', 'bar'], $result),
             'Array does not contain what should have been filtered out.');
