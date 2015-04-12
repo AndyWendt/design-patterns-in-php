@@ -37,18 +37,13 @@ that functionality into classes that can be used interchangeably. They are inter
 If we hardcoded the filters into the [ArrayModifier class](src/Strategy/ArrayModifier.php), it would create a number of 
 problems: 
 
-    1. The filters would not be able to be used elsewhere.
-    2. To change the filtering or add a new filter you would have to alter the internal code of the ArrayModifier class. 
-    3. You would not be able to easily vary the filtering from one usage to the next thereby coupling yourself to one 
-    option.  
-    4. ArrayModifier should not care how the array is filtered, only that it can be done.  (See the [Single Responsibility Principle](http://en.wikipedia.org/wiki/Single_responsibility_principle).
-   
+1. The filters would not be able to be used elsewhere.
+2. To change the filtering or add a new filter you would have to alter the internal code of the ArrayModifier class. 
+3. You would not be able to easily vary the filtering from one usage to the next thereby coupling yourself to one 
+option.  
+4. ArrayModifier should not care how the array is filtered, only that it can be done.  (See the [Single Responsibility Principle](http://en.wikipedia.org/wiki/Single_responsibility_principle).
+
   
-
-
-
-
-
 ## Template Method
  
  
