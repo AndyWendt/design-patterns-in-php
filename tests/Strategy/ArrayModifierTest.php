@@ -40,6 +40,6 @@ class ArrayModifierTest extends \PHPUnit_Framework_TestCase
      */
     protected function allNeedlesInArray(array $needles, array $haystack)
     {
-        return !!array_intersect($needles, $haystack);
+        return !array_diff($needles, $haystack);
     }
 }
