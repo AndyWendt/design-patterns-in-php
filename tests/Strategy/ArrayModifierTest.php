@@ -27,9 +27,9 @@ class ArrayModifierTest extends \PHPUnit_Framework_TestCase
             );
 
         $this->assertTrue(!$this->allNeedlesInArray(['foo', 'bar'], $result),
-            'Array does not contain what should have been filtered out.');
+            'Array has been filtered');
         $this->assertTrue($this->allNeedlesInArray(['baz', 'wow'], $result),
-            'Array contains what should have been inserted.');
+            'Array contains inserted entries');
     }
 
     /**
